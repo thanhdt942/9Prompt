@@ -1,0 +1,119 @@
+[
+  {
+    "id": "dev-sticker-pack-12",
+    "title": "Create 12 Sticker Expressions",
+    "description": "Turn one image into a themed 12-expression sticker set.",
+    "content": "Convert this image into a set of 12 chibi stickers (4x3 grid) in {{style}} style. Include expressions: happy, angry, crying, thinking, sleepy, wink, surprised, kiss, laugh, sad, confident, and cute. Keep character identity consistent and add a white border around each sticker.",
+    "tags": ["image", "stickers", "template"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-product-copy-rewrite",
+    "title": "Product Copy Rewrite",
+    "description": "Rewrite product descriptions in a consistent brand voice.",
+    "content": "Rewrite the following product description for {{audience}} with a {{tone}} tone. Keep under {{max_words}} words, highlight key benefits, and end with a clear CTA.\n\nInput:\n{{product_description}}",
+    "tags": ["copywriting", "marketing", "template"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-youtube-script-short",
+    "title": "YouTube Short Script",
+    "description": "Generate a short-form video script with hook and CTA.",
+    "content": "Write a {{duration_seconds}}-second YouTube Short script about {{topic}} for {{audience}}.\nStructure:\n1) Hook in first 2 seconds\n2) 3 key points\n3) Strong CTA\nTone: {{tone}}\nAvoid fluff and keep each sentence punchy.",
+    "tags": ["video", "content", "social"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-linkedin-post-polish",
+    "title": "LinkedIn Post Polish",
+    "description": "Polish draft posts for professional engagement.",
+    "content": "Polish the draft below into a high-engagement LinkedIn post.\nRequirements:\n- Audience: {{audience}}\n- Tone: {{tone}}\n- Max length: {{max_words}} words\n- Include 1 strong opening line\n- Include 3-5 concise bullet points\n- End with a discussion question\n\nDraft:\n{{draft_post}}",
+    "tags": ["linkedin", "writing", "branding"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-email-sequence",
+    "title": "Email Nurture Sequence",
+    "description": "Create a multi-email sequence with clear objectives.",
+    "content": "Create a {{email_count}}-email nurture sequence for {{product}}.\nAudience: {{audience}}\nGoal: {{goal}}\nTone: {{tone}}\nFor each email include:\n- Subject line\n- Preview text\n- Body (short)\n- CTA\nKeep progression logical across the sequence.",
+    "tags": ["email", "marketing", "sales"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-seo-article-outline",
+    "title": "SEO Article Outline",
+    "description": "Build a search-friendly long-form article structure.",
+    "content": "Create a detailed SEO article outline for keyword \"{{primary_keyword}}\".\nInclude:\n- Search intent analysis\n- Title options (at least 5)\n- H2/H3 structure\n- FAQ section\n- Internal linking ideas\nAudience: {{audience}}\nWord target: {{word_count}}",
+    "tags": ["seo", "blog", "content"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-code-review-assistant",
+    "title": "Code Review Assistant",
+    "description": "Review code for bugs, readability, and maintainability.",
+    "content": "Review this {{language}} code and provide:\n1) Critical bugs\n2) Edge cases missed\n3) Readability improvements\n4) Refactoring suggestions\n5) Test cases to add\n\nCode:\n{{code_snippet}}",
+    "tags": ["coding", "review", "quality"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-bug-report-summary",
+    "title": "Bug Report Summarizer",
+    "description": "Convert messy issue notes into actionable bug reports.",
+    "content": "Transform the notes below into a high-quality bug report.\nFormat:\n- Title\n- Environment\n- Steps to reproduce\n- Expected result\n- Actual result\n- Severity\n- Suspected root cause\n- Proposed fix direction\n\nNotes:\n{{raw_bug_notes}}",
+    "tags": ["debug", "qa", "engineering"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-ui-ux-critique",
+    "title": "UI/UX Critique",
+    "description": "Structured design review with practical improvements.",
+    "content": "Critique this UI screen for {{platform}}.\nFocus on:\n- Visual hierarchy\n- Spacing and alignment\n- Accessibility concerns\n- Interaction clarity\n- Conversion/goal friction\nReturn:\n- Top 5 issues\n- Suggested fixes by impact\n\nContext:\n{{screen_context}}",
+    "tags": ["design", "ux", "audit"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-translation-localization",
+    "title": "Translation + Localization",
+    "description": "Translate text while adapting cultural nuance.",
+    "content": "Translate this content from {{source_language}} to {{target_language}}.\nRequirements:\n- Keep intended meaning\n- Adapt idioms naturally\n- Preserve brand tone: {{brand_tone}}\n- Provide 2 alternatives for key headline\n\nText:\n{{source_text}}",
+    "tags": ["translation", "localization", "language"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-meeting-notes-to-tasks",
+    "title": "Meeting Notes to Action Items",
+    "description": "Extract owners, deadlines, and dependencies quickly.",
+    "content": "Convert these meeting notes into actionable tasks.\nOutput table columns:\n- Task\n- Owner\n- Priority\n- Due date\n- Dependencies\n- Status suggestion\nAlso include a short executive summary.\n\nNotes:\n{{meeting_notes}}",
+    "tags": ["productivity", "ops", "project"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-learning-plan",
+    "title": "30-Day Learning Plan",
+    "description": "Build a practical learning roadmap for any skill.",
+    "content": "Create a 30-day learning plan for {{skill}}.\nCurrent level: {{current_level}}\nAvailable time per day: {{minutes_per_day}} minutes\nGoal: {{goal}}\nReturn:\n- Weekly milestones\n- Daily tasks\n- Practice projects\n- Self-check checkpoints",
+    "tags": ["learning", "education", "planning"],
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  {
+    "id": "dev-image-prompt-enhancer",
+    "title": "Image Prompt Enhancer",
+    "description": "Refine basic prompts into high-quality visual prompts.",
+    "content": "Enhance this image prompt for {{model_name}}.\nBase idea: {{base_prompt}}\nStyle: {{style}}\nLighting: {{lighting}}\nCamera/lens: {{camera}}\nMood: {{mood}}\nConstraints: {{constraints}}\nReturn 3 improved versions: realistic, cinematic, and stylized.",
+    "tags": ["image", "ai-art", "prompting"],
+    "createdAt": 0,
+    "updatedAt": 0
+  }
+]
