@@ -1,5 +1,7 @@
 # 9Prompt Chrome Extension
 
+![9Prompt UI](9prompt.png)
+
 Minimal Chrome Extension (Manifest V3) for saving and reusing AI prompts.
 
 ## Stack
@@ -28,21 +30,3 @@ Minimal Chrome Extension (Manifest V3) for saving and reusing AI prompts.
 ```bash
 npm install
 npm run dev
-```
-
-## Build extension
-
-```bash
-npm run build
-```
-
-Build output is in `dist/`.
-
-## Load in Chrome
-
-1. Open `chrome://extensions`
-2. Enable **Developer mode**
-3. Click **Load unpacked**
-4. Select the `dist` folder
-
-Chrome uses `dist/manifest.json` and opens the extension popup from `index.html`.
